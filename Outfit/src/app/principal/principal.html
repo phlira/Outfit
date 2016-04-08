@@ -1,0 +1,13 @@
+<div class="row">
+	<div class="col-md-3 painel-animado" ng-repeat="produto in produtos">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title text-center">{{produto.titulo}}</h3>
+			</div>
+			<div class="panel-body">
+				<img class="img-responsive center-block" src="{{produto.url}}" alt="{{produto.titulo}}">
+				<p class="text-center">Valor: R${{produto.valor}}</p>
+			</div>
+		</div>
+	</div>
+</div>

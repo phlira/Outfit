@@ -1,0 +1,87 @@
+a, .selecionavel {
+	cursor: pointer;
+}
+
+.titulo-objeto {
+	margin: 0;
+	font-size: 27px !important;
+}
+
+.titulo-objeto .badge-notificacao {
+	background-color: #FF6600 !important;
+	font-size: 23px;
+}
+
+.classe-objeto {
+	display: block;
+	font-size: 0.6em;
+}
+
+#frm-editar-membro .row, #frm-editar-membro fieldset {
+	margin-bottom: 20px;
+}
+
+.control-label.obrigatorio:after {
+	content: "*";
+	color: red;
+}
+
+form .msgValidacao{
+	color: red;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.panel.panel-info.grupos .panel-heading.collapsibleTitle:hover{
+  background-color: #d9edf7;
+}
+
+.panel.panel-warning.grupos .panel-heading.collapsibleTitle:hover{
+  background-color: #fcf8e3;
+}
+
+.row.contatosSugeridos{
+	margin-bottom: 20px;
+}
+
+/*
+ * override the default CSS as an example
+ */
+#loading-bar .bar {
+	background: #fff;
+}
+
+#loading-bar-spinner {	
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+}
+
+#loading-bar-spinner .spinner-icon {
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	margin-left: -32px;
+	margin-top: -32px;
+	width: 64px;
+	height: 64px;
+	border: solid 8px transparent;
+	border-top-color: #c0c0c0;
+	border-left-color: #808080;
+	border-radius: 50%;
+	-webkit-animation: loading-bar-spinner 400ms linear infinite;
+	-moz-animation: loading-bar-spinner 400ms linear infinite;
+	-ms-animation: loading-bar-spinner 400ms linear infinite;
+	-o-animation: loading-bar-spinner 400ms linear infinite;
+	animation: loading-bar-spinner 400ms linear infinite;
+}
+
+#loading-bar .peg {
+	-moz-box-shadow: #fff 1px 0 6px 1px;
+	-ms-box-shadow: #fff 1px 0 6px 1px;
+	-webkit-box-shadow: #fff 1px 0 6px 1px;
+	box-shadow: #fff 1px 0 6px 1px;
+}
